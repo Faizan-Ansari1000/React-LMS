@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const ApiInstance = axios.create({
-    baseURL: 'https://jsonplaceholder.typicode.com'
+    baseURL: ''
 })
 
 export default ApiInstance;
